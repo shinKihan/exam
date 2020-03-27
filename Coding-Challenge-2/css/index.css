@@ -1,0 +1,56 @@
+div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.nav-box {
+    width: 100%
+}
+
+.side-box{
+    width: 100%
+}
+
+.flex-container {
+    display: flex;
+}
+
+.heading-box {
+    margin-left: 10%
+}
+
+@media (min-width: 600px) and (max-width:990px) {
+    .nav-box {
+        width: 100%
+    }
+    
+    .side-box{
+        width: 100%
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .heading-box {
+        margin-left: 10%
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-box {
+        width: 100%
+    }
+    
+    .side-box{
+        width: 100%
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .heading-box {
+        margin-left: 10%
+    }
+}
